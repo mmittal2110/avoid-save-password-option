@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+<input type="text" class="myclass"/>
+
+
+<style>
+
+@font-face
+    {
+    font-family:'dotsfont';
+    src:url('dotsfont.eot');
+    src:url('dotsfont.eot?#iefix')  format('embedded-opentype'),
+        url('dotsfont.svg#font')    format('svg'),
+        url('dotsfont.woff')        format('woff'),
+        url('dotsfont.ttf')         format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+input.myclass
+    {-webkit-text-security:disc;font-family:dotsfont;}
+</style>
+
+</body>
+</html>

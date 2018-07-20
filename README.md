@@ -13,4 +13,9 @@ To avoid cross browser issue's we can use a font which contains only dots.
 DotsFont: A font made of only dots
 https://github.com/kylewelsby/dotsfont
 
-we can include this font and apply this font family to input type="text" which we want to display as password
+we can include this font and create a font family css for this.
+
+Apply this font family to input type="text" which we want to display as password. Anything written in this input will appear only as a dot.
+
+
+

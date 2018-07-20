@@ -1,4 +1,7 @@
-If we use input type="password" in HTML browser popup a option to save the password. 
+*Remove/Hide Save password option*
+
+
+If we use input type="password" in HTML, browser popup a option to save the password. 
 
 Browser identifies the input type password and show the popup. In order to avoid this we an use input type="text" and make it look like password. CSS rule for this is 
 
